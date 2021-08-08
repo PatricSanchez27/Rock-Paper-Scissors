@@ -7,7 +7,7 @@ print("You chose: " + userChoice) #Prints what the user chose
 
 computerChoice = random.choice(['r', 'p', 's']) #Randomly generate's the computer's choice
 
-print("The computer chose: " + computerChoice) #Prints the computer's choice
+print("The computer chose: " + computerChoice) #Prints the computer's choice to the user
 
 if userChoice == computerChoice:
     print("\nThe game is a tie!")   #Print the game is a tie if the computer matches the user's move.
